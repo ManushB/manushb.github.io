@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 4
 title:  "Industry Experience"
 icon: fa-industry
 ---
