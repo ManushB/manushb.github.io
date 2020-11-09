@@ -1,15 +1,267 @@
----
-layout: home
-title: Manush Bhatt
----
-
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+    <title>Manush Bhatt</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
 </head>
-<body>
-	I am in my <strong>second</strong> year of Masters in Computer Science from <strong>Purdue
-	University</strong>. My research interests lie in deep generative modeling
+<body class="is-preload">
+
+<!-- Header -->
+<div id="header">
+
+    <div class="top">
+
+        <!-- Logo -->
+        <div id="logo">
+            <span class="image avatar48"><img src="images/me.jpg" alt=""/></span>
+            <h1 id="title">Manush Bhatt</h1>
+            <p>Graduate Student</p>
+        </div>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+                <li><a href="#news" id="news-link"><span class="icon solid fa-newspaper">News</span></a></li>
+                <li><a href="#publications" id="publications-link"><span class="icon solid fa-book">Publications</span></a>
+                </li>
+                <li><a href="#projects" id="projects-link"><span class="icon solid fa-tasks">Projects</span></a></li>
+                <li><a href="#research-exp" id="research-link"><span class="icon solid fa-university">Research Experience</span></a></li>
+                <li><a href="#work-exp" id="work-link"><span
+                        class="icon solid fa-industry">Industry Experience</span></a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="bottom">
+
+        <!-- Social Icons -->
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+            <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+<!-- Main -->
+<div id="main">
+
+    <!-- Intro -->
+    <section id="top" class="one dark cover">
+        <div class="container">
+            <header>
+                I am in my second year of Masters in Computer Science from Purdue University.
+                My research interests lie in deep generative modeling.
+            </header>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="two">
+        <div class="container">
+
+            <header>
+                <h2 class="heading">News</h2>
+            </header>
+
+            <div>
+                <ul>
+                    <li>[Oct ‘20] Poster Accepted at NeurIPS '20 Beyond BackPropagation Workshop</li>
+                    <li>[Aug ‘20] Attended Oxford Machine learning Summer School OxML '20</li>
+                    <li>[Jul ‘20] Presented and Volunteered at PEARC '20</li>
+                    <li>[Jul ‘20] Student Volunteer at ICML '20</li>
+                    <li>[Apr ‘20] Paper accepted at PEARC '20</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="three">
+        <div class="container">
+
+            <header>
+                <h2 class="heading">Publications</h2>
+            </header>
+
+            <div>
+                <ul>
+                    <li>Design and Deployment of Photo2Building: A Cloud-based Procedural Modeling Tool as a
+                        Service at PEARC ‘20
+                        [<a href="https://arxiv.org/abs/2008.01286">Preprint</a>]
+                        [<a href="https://dl.acm.org/doi/abs/10.1145/3311790.3396670">Published</a>]
+                        [<a href="https://github.com/ManushB/photo2bldg">Code</a>]
+                        [<a href="http://photo2building.com/">Web-App</a>] <br>
+                        <b>M. Bhatt<b>, R. Kalyanam, G. Nishida, L. He, C.K. May, D. Niyogi and D.G. Aliaga</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="four">
+        <div class="container">
+            <header>
+                <h2 class="heading">Course Projects</h2>
+            </header>
+
+            <div class="inner alt">
+                <div class="spotlight">
+                    <div class="image">
+                        <img src="images/fakenews.png" style="float: left;width: 300px; height: 200px;" alt="">
+
+                    </div>
+                    <div class="content">
+                        <h3 class="heading2">Fake News Detection</h3>
+                        <h4 style="padding: 0px;text-align: justify">
+                            Classified news headlines during the U.S.
+                            Presidential Elections of 2016 into real and fake. A TF-IDF approach was used to generate
+                            lemmatized data. We evaluated our LSTM model against commonly used algorithms available
+                            from scikit-learn and achieved an accuracy of 96%
+                        </h4>
+                    </div>
+                </div>
+                <div class="spotlight">
+                    <div class="image">
+                        <img src="images/rul_prediction.gif" style="width: 300px; height: 250px;" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="heading2" style="text-align: left;">Predicting useful life of a Li-Ion battery</h3>
+                        <h4 style="padding: 0px;text-align: justify">
+                            The project involved estimating the remaining useful life(capacity) of a Li-Ion battery
+                            after k number of charge and discharge cycles on a dataset provided by NASA. Relevance
+                            Vector Machine(RVM) with a certain degree of randomness was used to determine the
+                            capacity change
+                        </h4>
+                    </div>
+                </div>
+                <div class="spotlight">
+                    <div class="image">
+                        <img src="images/wave_simulation.gif" style="width: 300px; height: 250px; border-radius: 50%"
+                             alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="heading2" style="text-align: left;">Gerstner Wave Simulation</h3>
+                        <h4 style="padding: 0px;text-align: justify">
+                            Developed a 3D water simulation tool based on the Gerstner Wave simulation algorithm on the
+                            GPU. The code was developed using OpenGL and FreeGLUT
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Research Experience -->
+    <section id="research-exp" class="five">
+        <div class="container">
+
+            <header>
+                <h2 class="heading">Research Experience</h2>
+            </header>
+
+            <div class="inner alt">
+                <div class="spotlight">
+                    <div class="image">
+                        <img src="images/Purdue_Logo.png" style="float: left;width: 330px; height: 180px;" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="heading2">
+                            Photo2Building
+                        </h3>
+                        <h4 style="padding: 0px;text-align: justify">
+                            Procedural Modeling has been used to create 3D models and textures from a set of grammars.
+                            The tool Photo2Building procedurally generates a 3D geometry of the building given a
+                            photograph. My work focused on using cloud infrastructures to make the tool scalable and
+                            publicly available for the urban modeling community. Designed and developed a client-server
+                            model where the server used pre-trained convolutional neural network(CNN) models to
+                            automatically estimate the building (facade and window) grammars and the client provided an
+                            interactive GUI developed using Jupyter Notebook. Our results showed that the cost of
+                            reconstructing a 3D model of the building came up to just 0.60 USD on Google Cloud
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section id="work-exp" class="six">
+        <div class="container">
+
+            <header>
+                <h2 class="heading">Work Experience</h2>
+            </header>
+
+            <div class="inner alt">
+                <div class="spotlight">
+                    <div class="image">
+                        <img src="images/Lavelle_Logo.png" style="float: left;width: 330px; height: 180px;" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="heading2" style="letter-spacing: -2.8px">
+                            Senior Software Developer [Oct'17 - Dec'18]
+                        </h3>
+                        <h3 class="heading2" style="letter-spacing: -2.8px">
+                            Software Developer [Jun'16 - Oct'17]
+                        </h3>
+                        <h3 class="heading2" style="letter-spacing: -2.8px">Software Developer Intern [Aug '15 - May '16]</h3>
+                        <h4 style="padding: 0px;text-align: justify">
+                        </h4>
+                    </div>
+                </div>
+                <div class="spotlight">
+                    <div class="image">
+                        <img src="images/Purdue_Logo.png" style="float: left;width: 330px; height: 180px;" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="heading2" style="letter-spacing: -2.8px">
+                            Graduate Teaching Assistant [Aug'20 - Present]
+                        </h3>
+                        <h4 style="padding: 0px;text-align: justify">
+                            CS 180: Problem Solving And Object-Oriented Programming
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<div id="footer">
+
+    <!-- Copyright -->
+    <ul class="copyright">
+        <li>&copy; Manush Bhatt. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>

@@ -1,7 +1,0 @@
----
-order: 2
-title:  "Projects"
-icon: fa-tasks
----
-I am in my <strong>second</strong> year of Masters in Computer Science from <strong>Purdue 
-University</strong>. My research interests lie in deep generative modeling
