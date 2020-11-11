@@ -2245,12 +2245,12 @@ button:active,
 #main > section.cover {
     padding: 10em 0;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 #main > section.one {
     background-color: #81918E;
-    background-image: url("../../images/banner.jpg");
+    background-image: url("../../images/background2.jpg");
 }
 
 #main > section.two {
@@ -2262,6 +2262,18 @@ button:active,
 }
 
 #main > section.four {
+    background-color: #e8edec;
+}
+
+#main > section.five {
+    background-color: #f5fafa;
+}
+
+#main > section.six {
+    background-color: #ecf1f1;
+}
+
+#main > section.seven {
     background-color: #e8edec;
 }
 
