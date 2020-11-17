@@ -2639,10 +2639,18 @@ button:active,
 }
 
 .heading2 {
-    text-align: left;
+    text-align: center;
     font-family: monospace;
     color: #FF8C00;
     font-size: 1.3em;
+    letter-spacing: -2.0px;
+}
+
+.heading3 {
+    display:inline;
+    font-family: monospace;
+    color: #FF8C00;
+    font-size: 1em;
     letter-spacing: -2.0px;
 }
 
